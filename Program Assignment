@@ -1,0 +1,113 @@
+//Program to Print "Hello, World!" to the console//
+
+public class p1 {
+    public static void main(String[] args)
+
+    {
+        System.out.println("hello world");
+    }
+
+
+}
+
+//Program to take input Number (Example 10), from The User and Print to the console//
+
+import  java.util.Scanner;
+public class p2 {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number:\n");
+        int a = sc.nextInt();
+
+    }
+}
+
+//Program To Input Two Number From User Then Addition It and Print It//
+
+import  java.util.Scanner;
+public class p3 {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number 1:\n");
+        int a = sc.nextInt();
+        System.out.println("Enter the number 2:\n");
+        int b = sc.nextInt();
+
+        int c = a+b;
+        System.out.println("Addition of two numbers:\n" +c);
+
+    }
+}
+
+//Java Program to Swap Two Numbers Using Third Variables//
+
+public class p5 {
+    public static void main(String[] args)
+    {
+        int a= 2;
+        int b = 3;
+        System.out.println("Before swapping the numbers:");
+        System.out.println("First number = " + a);
+        System.out.println("Second number = " + b);
+        int temp = a;
+        a=b;
+        b= temp;
+        System.out.println("After swapping the numbers:");
+        System.out.println("First number = " + a);
+        System.out.println("Second number = " + b);
+    }
+    
+    //Java Program to Swap two numbers without using Third Variable.//
+    
+    public class p6 {
+    public static void main(String[] args)
+    {
+        int a= 2;
+        int b = 3;
+        System.out.println("Before swapping the numbers:");
+        System.out.println("First number = " + a);
+        System.out.println("Second number = " + b);
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        
+
+        System.out.println("After swapping the numbers:");
+        System.out.println("First number = " + a);
+        System.out.println("Second number = " + b);
+    }
+}
+
+//  Java Program to Multiply Two Floating Point Numbers.//
+
+public class p4 {
+    public static void main(String[] args)
+    {
+        float a = 2.5F;
+        float b = 3.7F;
+        float c = a*b;
+        System.out.println(c);
+    }
+}
+
+//Java Program to Check Whether a Number is Even or Odd.//
+
+import  java.util.Scanner;
+public class p7 {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number:\n");
+        int a = sc.nextInt();
+        if (a%2==0) {
+            System.out.println("This is even number\n");
+        }
+        else {
+            System.out.println("This is odd number\n");
+        }
+    }
+}
+
