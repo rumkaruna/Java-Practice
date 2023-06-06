@@ -1,4 +1,5 @@
-Java Assignment:
+Practice_1
+Java Assignment
 
 Program To Input Two Number From User Then Addition It and Print It.
 Java Program to Check Whether a Number is Even or Odd.
